@@ -1,0 +1,51 @@
+I have hands-on experience with AWS services like EC2, S3, RDS, IAM, and Lambda. I have also completed [AWS course/certification], 
+which helped me understand cloud architecture, security, and deployment strategies."
+In our application tracking system, we manage code deployment through GitHub. Developers are granted collaborator access to the repository.
+
+When a developer pushes code, we pull or clone it from the repository, then run npm install to install dependencies,
+ followed by npm start to launch the application. To ensure the application runs persistently, we use PM2.
+
+ After making any changes or updates, we restart the PM2 service to apply them and keep the application running without downtime."
+
+BigQuery (BQ) – Fully managed, serverless data warehouse for large-scale analytics.
+BigQuery is Google Cloud's serverless data warehouse designed to store and analyze massive datasets in seconds
+
+Google Cloud Composer---- is a fully managed workflow orchestration service built on Apache Airflow. It helps schedule, 
+manage, and automate workflows for data pipelines, ensuring smooth ETL (Extract, Transform, Load) processes across different cloud services.
+
+Google Cloud Storage---- (GCS) is a fully managed storage service that allows you to store any type of data
+ (files, images, videos, backups, etc.) in the cloud.
+
+Cloud SQL – Managed relational database service for MySQL, PostgreSQL, and SQL Server. 
+
+Cloud Spanner – Globally distributed, strongly consistent relational database. 
+
+Cloud Firestore – NoSQL document database for real-time applications.
+
+Bigtable – Scalable NoSQL wide-column store for large analytical and operational workloads.
+
+Dataproc – Managed Apache Spark and Hadoop service for big data processing.
+
+Google Cloud Dataprep ----is a no-code, visual tool that helps you clean, transform, and prepare raw data for analysis. 
+
+Dataflow – Serverless stream and batch data processing with Apache Beam.
+
+Pub/Sub – Messaging service for event-driven architectures and real-time streaming.
+
+Data Fusion – Fully managed, no-code ETL and data integration service.,A visual tool to create data pipelines.
+
+Dataplex – Intelligent data management for governance and quality at scale.
+
+DLP (Data Loss Prevention) – Sensitive data discovery, classification, and protection.
+
+Apache Airflow--
+-----What it does---Manages data workflow
+------Data sources------Ingests data from many sources, including databases, APIs, and files
+-----Features------Uses directed acyclic graphs (DAGs) to represent workflows
+----Use cases----Batch and real-time data processing
+
+Google Cloud Composer---
+-----What it does---Orchestrates pipelines
+------Data sources------Ingests data from Google Cloud Storage, Google BigQuery, and other sources
+-----Features------Manages dependencies and schedules jobs
+----Use cases----ETL processes, data pipelines, and complex job dependencies

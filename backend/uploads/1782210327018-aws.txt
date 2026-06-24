@@ -1,0 +1,84 @@
+1-Define and explain the three basic types of cloud services and the AWS products that are built based on them?
+The three basic types of cloud services are:
+
+Computing
+Storage
+Networking
+Here are some of the AWS products that are built based on the three cloud service types:
+
+Computing - These include EC2, Elastic Beanstalk, Lambda, Auto-Scaling, and Lightsat.
+
+Storage - These include S3, Glacier, Elastic Block Storage, Elastic File System.
+
+Networking - These include VPC, Amazon CloudFront, Route53
+
+2. What is the relation between the Availability Zone and Region?
+AWS regions are separate geographical areas, like the US-West 1 (North California) and Asia South (Mumbai). On the other hand, availability zones are the areas that are present inside the regions. These are generally isolated zones that can replicate themselves whenever required
+
+3.What is auto-scaling?
+Auto-scaling is a function that allows you to provision and launch new instances whenever there is a demand. It allows you to automatically increase or decrease resource capacity in relation to the demand.
+
+4. What are the different types of EC2 instances based on their costs?
+The three types of EC2 instances are:
+On-demand Instance
+It is cheap for a short time but not when taken for the long term
+Spot Instance
+It is less expensive than the on-demand instance and can be bought through bidding. 
+Reserved Instance
+If you are planning to use an instance for a year or more, then this is the right one for you.
+
+5.What are Key-Pairs in AWS?
+The Key-Pairs are password-protected login credentials for the Virtual Machines that are used to prove our identity while connecting the Amazon EC2 instances. The Key-Pairs are made up of a Private Key and a Public Key which lets us connect to the instances.
+
+6.How can you recover/login to an EC2 instance for which you have lost the key?
+Recover an EC2 instance if you have lost the key:
+Verify that the EC2Config service is running
+Detach the root volume for the instance
+Attach the volume to a temporary instance
+Modify the configuration file
+Restart the original instance
+
+1. Cloud Deployment and Management
+Application Deployment in AWS
+
+Deployed application project on the AWS cloud platform ensuring high availability and scalability to meet demand and improve performance.
+Managed the AWS infrastructure for optimized resource allocation, ensuring minimal downtime and high uptime.
+Cloudflare Integration
+
+Utilized Cloudflare to assign domains to applications, ensuring high-speed content delivery and DNS management.
+Enhanced security and performance by integrating Cloudflare services for domain management and traffic routing.
+Cloud Platform Selection
+
+Deployed applications on a scalable cloud platform (AWS) to support traffic loads and ensure high availability, meeting business needs for performance and cost-effectiveness.
+2. CI/CD Automation and Deployment
+CI/CD Pipeline Automation
+
+Designed and implemented CI/CD pipelines using Jenkins and GitHub, automating code integration, testing, and deployment, improving efficiency and reducing manual intervention.
+Established continuous integration processes for faster feedback loops, automated testing, and deployment to staging/production environments.
+Automated Deployment Tools
+
+Leveraged Jenkins and GitHub Actions to automate the deployment process, streamlining the release cycle and enhancing team productivity.
+Implemented Terraform to automate infrastructure provisioning, ensuring consistency across development, testing, and production environments.
+
+4. System Monitoring and Performance Optimization
+Performance Monitoring Tools
+
+Monitored system performance using AWS CloudWatch and Datadog, tracking key metrics to identify bottlenecks and performance issues.
+Analyzed data to identify potential system inefficiencies and address them proactively.
+Reliability & Optimization
+
+Implemented performance optimizations to reduce response times, improve scalability, and enhance the overall reliability of the system.
+Ensured system uptime and availability through proactive monitoring and troubleshooting, maintaining business continuity.
+5. Infrastructure Automation
+Infrastructure as Code (IaC)
+
+Automated infrastructure provisioning using Terraform, ensuring consistent and reproducible environments for deployment across various stages of the SDLC (development, testing, production).
+Reduced manual configuration errors and streamlined the infrastructure setup process, enhancing deployment speed.
+Automated Deployment
+
+Automated the deployment of both applications and infrastructure using Jenkins and GitHub Actions, reducing deployment times and eliminating manual intervention.
+Streamlined the infrastructure and application deployment process, allowing for faster rollouts and reducing errors in production.
+
+
+
+

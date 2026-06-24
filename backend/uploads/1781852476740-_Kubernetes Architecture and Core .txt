@@ -1,0 +1,46 @@
+. Kubernetes Architecture and Core Components
+
+cluster 
+Master Node Components:
+
+API Server (kube-apiserver): Central control plane component that exposes the Kubernetes API.
+ It's the entry point for all administrative commands and interactions.
+
+Etcd: A consistent and highly-available key-value store used for persistent storage of all cluster data.
+
+Controller Manager (kube-controller-manager): Manages various controllers that handle routine tasks such as scaling, node management, and replication.
+
+Scheduler (kube-scheduler): Assigns workloads (Pods) to nodes based on resource availability, affinity/anti-affinity rules, and other factors.
+
+Worker Node Components:
+
+Kubelet: An agent that runs on each node, ensuring that containers are running as expected in a Pod.
+
+Kube-proxy: Manages networking rules on nodes, ensuring that networking traffic is routed correctly.
+
+Pods: The smallest deployable units in Kubernetes, consisting of one or more containers that share storage, network, and namespace.
+
+
+S3 Standard
+ S3 Intelligent-Tiering
+S3 One Zone-IA (Infrequent Access)
+S3 Glacier
+S3 Glacier Deep Archive
+ S3 Reduced Redundancy Storage (RRS)
+
+ General Purpose Instances,  Compute Optimized Instances, Memory Optimized Instances ,Storage Optimized Instances, Acceralted
+
+
+
+on demand, spot , received , saving ,dedicated host , dedicated instance
+
+Load Balancer
+Purpose: A Load Balancer distributes incoming network or application traffic across multiple servers to ensure no single server becomes overwhelmed and to enhance availability and reliability.
+
+
+
+
+
+
+
+
